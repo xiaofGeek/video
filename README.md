@@ -23,7 +23,7 @@
 
 - QQ：**1848148016**
 
-  ![image-20250921214143225](C:\Users\18481\Desktop\assets\image-20250921214143225.png)
+  https://raw.githubusercontent.com/xiaofGeek/NoteImage/refs/heads/main/QQ.png
 
 > 💰 完整源码获取费用：**38** 元  
 > 购买后可获得完整源码包（包含前后端） + 数据库文件。  
