@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.video.mapper.MovieMapper">
+
+    <select id="pageMovieByQuery" resultType="com.video.entity.Movie">
+        select m.*, c.name as category_name
+        from movie m
+        left join category c on m.cid = c.id
+        <where>
+            <if test="query.name != null and query.name != ''">
+                and m.name like concat('%', #{query.name}, '%')
+            </if>
+            <if test="query.cid != null">
+                and (m.cid = #{query.cid} 
+                    OR m.cid IN (SELECT id FROM category WHERE parent_id = #{query.cid}))
+            </if>
+        </where>
+        order by m.id asc
+    </select>
+
+    <select id="selectByCategory" resultType="com.video.entity.Movie">
+        SELECT m.*
+        FROM movie m
+                 LEFT JOIN category c ON m.cid = c.id
+        WHERE m.cid IN (
+            SELECT id FROM category
+            WHERE id = #{categoryId}
+               OR parent_id = #{categoryId}
+        )
+    </select>
+
+    <select id="pageMovieList" resultType="com.video.entity.Movie">
+        SELECT m.*, c.name as category_name
+        FROM movie m
+        LEFT JOIN category c ON m.cid = c.id
+        <where>
+            <if test="categoryId != null">
+                AND (
+                    m.cid = #{categoryId}
+                    OR m.cid IN (
+                        SELECT id 
+                        FROM category 
+                        WHERE parent_id = #{categoryId}
+                    )
+                )
+            </if>
+            <if test="release != null and release != ''">
+                AND YEAR(m.release) = #{release}
+            </if>
+        </where>
+        ORDER BY m.release DESC, m.score DESC
+    </select>
+
+    <select id="getPopularMovie" resultType="com.video.entity.Movie">
+        select *
+        from movie m
+        left join category c on m.cid = c.id
+        <where>
+            m.cid = 1 or m.cid in(
+                select id from category
+                where parent_id=1
+            )
+        </where>
+        order by m.score desc
+        limit 12
+    </select>
+
+    <select id="pageBySearch" resultType="com.video.entity.Movie">
+        select *
+        from movie
+        <where>
+            movie.name like concat('%',#{keyWord},'%') or
+            movie.director like concat('%',#{keyWord},'%') or
+            movie.actor like concat('%',#{keyWord},'%')
+        </where>
+    </select>
+
+
+</mapper>

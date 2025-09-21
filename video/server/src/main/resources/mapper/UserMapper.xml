@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.video.mapper.UserMapper">
+
+    <select id="pageUserByQuery" resultType="com.video.vo.UserVO">
+        select id, account, name, avatar,gender, age, phone, email, createtime
+        from user
+        <where>
+            <if test="queryVO.account != null and queryVO.account != ''">
+                and account like concat('%', #{queryVO.account}, '%')
+            </if>
+        </where>
+    </select>
+</mapper>

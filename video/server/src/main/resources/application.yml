@@ -1,0 +1,35 @@
+# 端口号配置
+server:
+  port: 8888
+
+# 数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root   #你本地的数据库用户名
+    password: 12345678 #你本地的数据库密码
+    url: jdbc:mysql://localhost:3306/video?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+  main:
+    allow-circular-references: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  data:
+    redis:
+      host: localhost  # Redis 服务器地址
+      port: 6379       # Redis 服务器端口
+      password:        # 如果有密码，填写密码；如果没有，留空
+      database: 0      # 使用的数据库索引（默认是 0）
+
+# 配置mybatis实体和xml映射
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.video.entity
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true # 启用驼峰命名映射
+

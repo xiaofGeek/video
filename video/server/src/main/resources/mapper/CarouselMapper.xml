@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.video.mapper.CarouselMapper">
+
+    <select id="pageByQuery" resultType="com.video.entity.Carousel">
+        select id, movie_id, name, cover, actor, director
+        from carousel
+        <where>
+            <if test="query.name != null and query.name != ''">
+                and name like concat('%', #{query.name}, '%')
+            </if>
+        </where>
+    </select>
+</mapper>

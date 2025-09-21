@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c083f6a-a719-4c98-8517-247935d6fd29" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\ideaProjects\mvn_repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../Program Files/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2oVnQ0TuWzeCeVXMEMUsdOyl7AB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../05_源代码/webShopping" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\18481\Desktop\Document\video\server\src\main\java\com\video\mapper" />
+      <recent name="C:\Users\18481\Desktop\Document\video\server\src\main\java\com\video\entity" />
+      <recent name="C:\Users\18481\Desktop\Document\video\server\src\main\java\com\video\service\impl" />
+      <recent name="C:\Users\18481\Desktop\Document\video\server\src\main\java\com\video\service" />
+      <recent name="C:\Users\18481\Desktop\Document\video\server\src\main\java\com\video\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\18481\Desktop\video\server\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.video.service.impl" />
+      <recent name="com.video.service" />
+      <recent name="com.video.entity" />
+      <recent name="com.video.controller" />
+      <recent name="com.video.common.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.video.ServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c083f6a-a719-4c98-8517-247935d6fd29" name="Changes" comment="" />
+      <created>1730963592157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730963592157</updated>
+      <workItem from="1730963594584" duration="5980000" />
+      <workItem from="1730971275947" duration="7744000" />
+      <workItem from="1731049108923" duration="4089000" />
+      <workItem from="1731127713963" duration="25763000" />
+      <workItem from="1731171229675" duration="5034000" />
+      <workItem from="1731216233234" duration="18894000" />
+      <workItem from="1731253387014" duration="1852000" />
+      <workItem from="1731306261094" duration="14070000" />
+      <workItem from="1731651364976" duration="10371000" />
+      <workItem from="1731681605817" duration="1227000" />
+      <workItem from="1731727471189" duration="4388000" />
+      <workItem from="1731835895100" duration="6599000" />
+      <workItem from="1731899110578" duration="2121000" />
+      <workItem from="1731915614153" duration="4530000" />
+      <workItem from="1731943369925" duration="4119000" />
+      <workItem from="1731983338789" duration="3645000" />
+      <workItem from="1731998533967" duration="13067000" />
+      <workItem from="1732033571647" duration="115000" />
+      <workItem from="1732071482684" duration="4401000" />
+      <workItem from="1732084737204" duration="15592000" />
+      <workItem from="1732156008678" duration="14213000" />
+      <workItem from="1732192380193" duration="6171000" />
+      <workItem from="1732289918173" duration="3959000" />
+      <workItem from="1732344424397" duration="11937000" />
+      <workItem from="1732431714779" duration="4712000" />
+      <workItem from="1732523862561" duration="2860000" />
+      <workItem from="1732548556666" duration="2830000" />
+      <workItem from="1732586123721" duration="7583000" />
+      <workItem from="1732602131819" duration="1701000" />
+      <workItem from="1732608576935" duration="10198000" />
+      <workItem from="1732678613225" duration="4796000" />
+      <workItem from="1733227681950" duration="712000" />
+      <workItem from="1733384162814" duration="630000" />
+      <workItem from="1740810672129" duration="5107000" />
+      <workItem from="1741160182045" duration="7000" />
+      <workItem from="1742997209472" duration="1258000" />
+      <workItem from="1743050482501" duration="2471000" />
+      <workItem from="1743069059589" duration="2000" />
+      <workItem from="1743101771969" duration="2651000" />
+      <workItem from="1743144546661" duration="907000" />
+      <workItem from="1743164106431" duration="611000" />
+      <workItem from="1743173434272" duration="127000" />
+      <workItem from="1743173886963" duration="1508000" />
+      <workItem from="1743175421713" duration="949000" />
+      <workItem from="1743177025311" duration="2050000" />
+      <workItem from="1743207650823" duration="3125000" />
+      <workItem from="1744882211842" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/video/service/AdminService.java</url>
+          <line>26</line>
+          <properties class="com.video.service.AdminService">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/video/service/impl/CommentServiceImpl.java</url>
+          <line>35</line>
+          <properties class="com.video.service.impl.CommentServiceImpl">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

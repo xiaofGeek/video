@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.video.mapper.CommentMapper">
+    <select id="pageByQuery" resultType="com.video.entity.Comment">
+        select
+        c.id,
+        c.userId,
+        c.movieId,
+        c.commentId,
+        c.movieName,
+        c.content,
+        c.commentTime,
+        u.name as userName,
+        u.avatar as avatar
+        from
+        comment c
+        left join
+        user u
+        on
+        c.userId = u.id
+        <where>
+            <if test="query.movieName != null and query.movieName != ''">
+                and c.movieName like concat('%', #{query.movieName}, '%')
+            </if>
+        </where>
+    </select>
+
+</mapper>
